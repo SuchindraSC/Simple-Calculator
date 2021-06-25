@@ -26,3 +26,4 @@ while True:
         print(x**y)
     else:
         print("Invalid Argument")
+print("Calculator OFF") 
