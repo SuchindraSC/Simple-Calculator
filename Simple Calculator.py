@@ -24,3 +24,5 @@ while True:
         x=int(input("Enter the Base: "))
         y=int(input("Enter the exponent: "))
         print(x**y)
+    else:
+        print("Invalid Argument")
