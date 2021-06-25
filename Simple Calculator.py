@@ -1,26 +1,26 @@
 ## use of infinet loop as we want our calculator to work forever
 ## Break the loop as we use infite loop and it has to stopped somewhere
 while True:
-    option = input("Enter 'add', 'subtract', 'multiply', 'divide', 'power' or 'quit'")
-    if option=='quit':
+    option = input("Enter 'Add', 'Subtract', 'Multiply', 'Divide', 'Power' or 'Quit'")
+    if option=='Quit':
         break
-    elif option=='add':
+    elif option=='Add':
         x=int(input("Enter Number 1: "))
         y=int(input("Enter Number 2: "))
         print(x+y)
-    elif option=='subtract':
+    elif option=='Subtract':
         x=int(input("Enter Number 1: "))
         y=int(input("Enter Number 2: "))
         print(x-y)
-    elif option=='multiply':
+    elif option=='Multiply':
         x=int(input("Enter Number 1: "))
         y=int(input("Enter Number 2: "))
         print(x*y)
-    elif option=='divide':
+    elif option=='Divide':
         x=int(input("Enter Number 1: "))
         y=int(input("Enter Number 2: "))
         print(x/y)
-    elif option=='power':
+    elif option=='Power':
         x=int(input("Enter the Base: "))
         y=int(input("Enter the exponent: "))
         print(x**y)
